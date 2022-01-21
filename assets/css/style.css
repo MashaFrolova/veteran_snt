@@ -1,0 +1,7 @@
+/*!
+ * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+ */@import"https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap";html{background:url("../img/main_bg.jpg") center center/cover no-repeat;width:100%;max-width:100%;overflow-x:hidden}body{width:100%;max-width:100%;overflow-x:hidden}section{min-width:100%}.container{max-width:1777px;margin:0 auto}*{font-family:"PT Serif",serif;margin:0;padding:0}.promo{min-height:569px;display:flex;flex-direction:column;align-items:center}.promo header{width:1496px;margin:0 auto}.promo header__header{width:1481px;height:400px;margin:0 auto}.promo header__header_title{font-weight:bold;font-size:105px;line-height:123px;color:#1f0587}

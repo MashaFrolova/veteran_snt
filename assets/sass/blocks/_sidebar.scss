@@ -1,0 +1,164 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    min-width: 335px;
+    min-height: 2915px;
+    margin: 0 auto;
+    margin-top: 50px;
+    button {
+        width: 335px;
+        height: 142px;
+        background: $main-color;
+        box-sizing: border-box;
+        box-shadow: 0px 6px 6px $second-color;
+        border-radius: 20px;
+        font-weight: 900;
+        font-size: 31px;
+        line-height: 42px;
+        text-align: center;
+        color: $second-color;
+        padding: 18px;
+        margin: 0 auto;
+        margin-bottom: 66px;
+    }
+    .requisites {
+        width: 335px;
+        height: 550px;
+        background: $second-color;
+        border-radius: 20px;
+        p {
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 37px;
+            color: $main-color;
+            text-align: center;
+            padding: 80px 11px;
+            margin: 0 auto;
+        }
+    }
+    .feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &__title {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
+            margin: 0 auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: $main-color;
+            text-align: center;
+        }
+        &__form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 335px;
+            height: 784px;
+            background: $second-color;
+            border-radius: 20px;
+            margin: 0 auto;
+        }
+        input,
+        textarea {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            display: block;
+            width: 235px;
+            height: 80px;
+            background: $fifth-color;
+            border-radius: 20px;
+            border: none;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: $main-color;
+            padding-left: 26px;
+            margin-top: 29px;
+            border: none;
+        }
+        textarea {
+            width: 235px;
+            height: 324px;
+        }
+        .feedback__btn {
+            width: 235px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 29px;
+            margin-left: 50px;
+        }
+        &__policy {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 0 auto;
+            margin-top: 29px;
+            font-size: 13px;
+            line-height: 15px;
+            color: $main-color;
+            text-align: start;
+            input {
+                width: 0px;
+                height: 20px;
+                margin-right: 5px;
+                margin-top: 0;
+                color: $third-color;
+            }
+        }
+    }
+    .documents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 56px;
+            margin: 0 auto;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            color: $main-color;
+            text-align: center;
+        }
+        &__list {
+            width: 335px;
+            height: 550px;
+            background: $second-color;
+            border-radius: 20px;
+            ul {
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 37px;
+                color: $main-color;
+                text-align: center;
+                padding: 80px 11px;
+                margin: 0 auto;
+            }
+        }
+    }
+    .whatsapp {
+        width: 335px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 55px;
+            margin: 0 auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            margin-bottom: 5px;
+            color: $main-color;
+            text-align: center;
+        }
+        &__qr {
+            width: 100%;
+            height: 335px;
+            background-image: url('../img/whatsapp.png');
+        }
+    }
+}

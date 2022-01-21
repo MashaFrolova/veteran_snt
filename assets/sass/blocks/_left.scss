@@ -1,0 +1,50 @@
+    .left {
+        min-width: 1366px;
+        min-height: 2915px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 50px;
+        .plan {
+            width: 1366px;
+            height: 992px;
+            margin: 0 auto;
+            .subtitle {
+                width: 459px;
+                height: 75px;
+                font-weight: bold;
+                font-size: 49px;
+                line-height: 75px;
+                color: $main-color;
+                margin: 0 auto;
+                margin-bottom: 70px;
+            }
+            &__snt {
+                width: 1095px;
+                height: 713px;
+                margin: 0 auto;
+                img {
+                    width: 1095px;
+                    height: 713px;
+                    margin: 0 auto;
+                }
+            }
+        }
+        .news {
+            width: 1391px;
+            height: 959px;
+            margin: 0 auto;
+            margin-top: 100px;
+            .subtitle {
+                width: 375px;
+                height: 75px;
+                font-weight: bold;
+                font-size: 49px;
+                line-height: 75px;
+                color: $main-color;
+                margin: 0 auto;
+                margin-bottom: 70px;
+            }
+        }
+    }
